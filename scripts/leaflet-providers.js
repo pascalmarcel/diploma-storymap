@@ -149,11 +149,27 @@
 			}
 		},
 		Jawg: {
-			url: '//tile.jawg.io/jawg-dark/{z}/{x}/{y}.png?access-token=VAlAuU7deKkbCQ5e1we2NSi3FNepATnVSIn6kyWsZZj1RqDQAgOOj85kZezNdMnM',
+			url: 'https://{s}.tile.jawg.io/{variant}/{z}/{x}/{y}{r}.png?access-token={VAlAuU7deKkbCQ5e1we2NSi3FNepATnVSIn6kyWsZZj1RqDQAgOOj85kZezNdMnM}',
 			options: {
-				maxZoom: 17,
-				attribution: '{attribution.OpenStreetMap}, Tiles courtesy of <a href="https://www.jawg.io/" target="_blank">jawglab</a>'			}
-		},
+				attribution:
+					'<a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> ' +
+					'{attribution.OpenStreetMap}',
+				minZoom: 0,
+				maxZoom: 22,
+				subdomains: 'abcd',
+				variant: 'jawg-terrain',
+				// Get your own Jawg access token here : https://www.jawg.io/lab/
+				// NB : this is a demonstration key that comes with no guarantee
+				accessToken: '<insert your access token here>',
+			},
+			variants: {
+				Streets: 'jawg-streets',
+				Terrain: 'jawg-terrain',
+				Sunny: 'jawg-sunny',
+				Dark: 'jawg-dark',
+				Light: 'jawg-light',
+				Matrix: 'jawg-matrix'
+			},
 		Thunderforest: {
 			url: '//{s}.tile.thunderforest.com/{variant}/{z}/{x}/{y}.png',
 			options: {
