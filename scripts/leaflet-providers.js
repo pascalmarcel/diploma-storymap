@@ -149,7 +149,7 @@
 			}
 		},
 		Jawg: {
-			url: 'https://{s}.tile.jawg.io/{variant}/{z}/{x}/{y}{r}.png?access-token={VAlAuU7deKkbCQ5e1we2NSi3FNepATnVSIn6kyWsZZj1RqDQAgOOj85kZezNdMnM}',
+			url: 'https://{s}.tile.jawg.io/{variant}/{z}/{x}/{y}{r}.png?access-token=VAlAuU7deKkbCQ5e1we2NSi3FNepATnVSIn6kyWsZZj1RqDQAgOOj85kZezNdMnM',
 			options: {
 				attribution:
 					'<a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> ' +
