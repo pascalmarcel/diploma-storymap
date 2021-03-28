@@ -149,7 +149,7 @@
 			}
 		},
 		Jawg: {
-			url: 'https://{s}.tile.jawg.io/{variant}/{z}/{x}/{y}{r}.png?access-token=VAlAuU7deKkbCQ5e1we2NSi3FNepATnVSIn6kyWsZZj1RqDQAgOOj85kZezNdMnM',
+			url: 'https://{s}.tile.jawg.io/{variant}/{z}/{x}/{y}{r}.png?access-token={accessToken}',
 			options: {
 				attribution:
 					'<a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> ' +
@@ -160,7 +160,7 @@
 				variant: 'jawg-terrain',
 				// Get your own Jawg access token here : https://www.jawg.io/lab/
 				// NB : this is a demonstration key that comes with no guarantee
-				accessToken: '<insert your access token here>',
+				accessToken: 'VAlAuU7deKkbCQ5e1we2NSi3FNepATnVSIn6kyWsZZj1RqDQAgOOj85kZezNdMnM',
 			},
 			variants: {
 				Streets: 'jawg-streets',
