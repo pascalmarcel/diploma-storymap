@@ -148,6 +148,12 @@
 				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 			}
 		},
+		Jawg: {
+			url: '//tile.jawg.io/jawg-dark/{z}/{x}/{y}.png?access-token=VAlAuU7deKkbCQ5e1we2NSi3FNepATnVSIn6kyWsZZj1RqDQAgOOj85kZezNdMnM',
+			options: {
+				maxZoom: 17,
+				attribution: '{attribution.OpenStreetMap}, Tiles courtesy of <a href="https://www.jawg.io/" target="_blank">jawglab</a>'			}
+		},
 		Thunderforest: {
 			url: '//{s}.tile.thunderforest.com/{variant}/{z}/{x}/{y}.png',
 			options: {
@@ -634,7 +640,8 @@
 				maxZoom: 18,
 				subdomains: '0123',
 			}
-		}
+		},
+		
 	};
 
 	L.tileLayer.provider = function (provider, options) {
