@@ -169,7 +169,8 @@
 				Dark: 'jawg-dark',
 				Light: 'jawg-light',
 				Matrix: 'jawg-matrix'
-			},
+			}
+		},
 		Thunderforest: {
 			url: '//{s}.tile.thunderforest.com/{variant}/{z}/{x}/{y}.png',
 			options: {
